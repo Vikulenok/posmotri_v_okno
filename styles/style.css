@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -35,4 +35,65 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+.content {
+  align-self: center;
+  display: grid;
+  /*height: 534px;*/
+  width: 1140px;
+  align-items: end;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-top: 133px;
+}
+.content__details {
+  display: flex;
+  flex-direction: column;
+  width: 399px;
+  height: 534px;
+}
+.content__list {
+  width: inherit;
+  height: 534px;
+  overflow: auto;
+}
+ul::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 26px;
+}
+.result__video-container {
+  width: 771px;
+}
+.result__video {
+  width: inherit;
+  height: 100%;
+}
+
+.content__list-item {
+  margin-top: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: baseline;
+}
+
+.content__video-card-thumbnail {
+  height: 103px;
+  width: 194px;
+}
+
+.content__video-card-description-container {
+  width: inherit ;
+  height: inherit;
 }
