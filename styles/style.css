@@ -42,7 +42,7 @@ ol {
   display: grid;
   width: 1140px;
   align-items: end;
-  grid-template-columns: 711px 399px; /*repeat(2, 1fr);*/
+  grid-template-columns: 711px 399px;
   gap: 30px;
   margin-top: 133px;
 }
