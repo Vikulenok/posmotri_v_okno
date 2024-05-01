@@ -42,8 +42,8 @@ ol {
   display: grid;
   width: 1140px;
   align-items: end;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 26px;
+  grid-template-columns: 711px 399px; /*repeat(2, 1fr);*/
+  gap: 30px;
   margin-top: 133px;
 }
 .content__details {
@@ -73,7 +73,6 @@ ul::-webkit-scrollbar {
 }
 .result__video-container {
   position: relative;
-  width: 771px;
   height: 386px;
 }
 .result__video {
