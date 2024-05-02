@@ -16,6 +16,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  height: 1080px;
 }
 
 h1,
@@ -41,10 +42,11 @@ ol {
   align-self: center;
   display: grid;
   width: 1140px;
-  align-items: end;
-  grid-template-columns: 711px 399px; /*repeat(2, 1fr);*/
+  align-items: end; 
+  grid-template-columns: 711px 399px;
   gap: 30px;
-  margin-top: 133px;
+  margin-top: 275px;
+  margin-left: 30px;
 }
 .content__details {
   display: flex;
