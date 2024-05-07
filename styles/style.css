@@ -9,14 +9,17 @@ html {
 }
 
 .page {
+  display: grid;
   inline-size: 1200px;
   block-size: 100%;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  height: 1080px;
+  
 }
 
 h1,
@@ -45,8 +48,7 @@ ol {
   align-items: end;
   grid-template-columns: 711px 399px;
   gap: 30px;
-  margin-top: 275px;
-  margin-left: 30px;
+ 
 }
 .content__details {
   display: flex;
